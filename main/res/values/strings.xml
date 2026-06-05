@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">Clima Local</string>
+    <string name="location_format">Lat: %.4f, Lon: %.4f</string>
+    <string name="temp_format">Temp: %.1f°C</string>
+    <string name="apparent_temp_format">Sensação: %.1f°C</string>
+    <string name="wind_format">Vento: %.1f km/h</string>
+    <string name="condition_format">Condição: %s</string>
+    <string name="date_format">Data: %s</string>
+    <string name="obs_format">Obs: %s</string>
+    <string name="loading_location">Localização: Capturando&#8230;</string>
+    <string name="btn_refresh">Atualizar Clima</string>
+    <string name="hint_observation">Observação pessoal</string>
+    <string name="label_favorite">Marcar como favorito</string>
+    <string name="btn_save">Salvar Consulta</string>
+    <string name="btn_history">Ver Histórico</string>
+    <string name="temp_default">Temp: --°C</string>
+    <string name="apparent_temp_default">Sensação: --°C</string>
+    <string name="condition_default">Condição: --</string>
+    <string name="wind_default">Vento: -- km/h</string>
+
+    <string name="cond_clear">Céu limpo</string>
+    <string name="cond_cloudy">Parcialmente nublado</string>
+    <string name="cond_fog">Nevoeiro</string>
+    <string name="cond_drizzle">Garoa</string>
+    <string name="cond_rain">Chuva</string>
+    <string name="cond_snow">Neve</string>
+    <string name="cond_showers">Pancadas de chuva</string>
+    <string name="cond_storm">Tempestade</string>
+    <string name="cond_unknown">Desconhecido (%d)</string>
+
+    <string name="error_location">Não foi possível obter a localização. Verifique o GPS.</string>
+    <string name="error_permission">Erro de permissão de localização.</string>
+    <string name="error_weather_data">Erro ao carregar dados do clima.</string>
+    <string name="connection_failure">Falha na conexão: %s</string>
+    <string name="save_success">Consulta salva com sucesso!</string>
+    <string name="save_error">Erro ao salvar no Firebase.</string>
+    <string name="load_first">Carregue os dados do clima primeiro.</string>
+    <string name="permission_denied">Permissão de localização negada.</string>
+    <string name="no_history">Nenhum histórico encontrado.</string>
+    <string name="update_success">Atualizado!</string>
+    <string name="update_error">Erro ao atualizar.</string>
+    <string name="delete_success">Excluído com sucesso!</string>
+    <string name="delete_error">Erro ao excluir.</string>
+    <string name="history_title">Histórico de Consultas</string>
+    <string name="edit_obs_title">Editar Observação</string>
+    <string name="delete_record_title">Excluir Registro</string>
+    <string name="delete_record_msg">Deseja realmente excluir esta consulta?</string>
+    <string name="btn_save_dialog">Salvar</string>
+    <string name="btn_cancel">Cancelar</string>
+    <string name="btn_yes">Sim</string>
+    <string name="btn_no">Não</string>
+    <string name="error_loading_generic">Erro ao carregar: %s</string>
+</resources>
